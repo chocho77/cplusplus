@@ -1,8 +1,8 @@
 #include <iostream>
 int main()
 {
-    std::cout << "Hello World !" << std::endl;
-    std::cout << "My name is Chavdar" << std::endl;
+    auto result = (10 <=> 20) > 0;
+    std::cout << result << std::endl;
 
     return 0;
 }
