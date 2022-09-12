@@ -2,8 +2,11 @@
 
 int main()
 {
-    std::cout << "Hello, world." << std::endl;
+    int age;
+    std::cout << "How old are you?" << std::endl;
     
+    std::cout << "Hello, world." << std::endl;
+
 
     return 0;
 }
